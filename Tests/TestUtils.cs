@@ -34,7 +34,6 @@ public class TestUtils
         var obj = Activator.CreateInstance(t);
         return m.Invoke(obj, param);
         
-        //return obj.GetType().GetField("_loginGameServerCallBack", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(obj);
     }
 
 
